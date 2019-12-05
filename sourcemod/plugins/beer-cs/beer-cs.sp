@@ -26,12 +26,12 @@ public void EventPlayerDeath(Event event, const char[] name, bool dontBroadcast)
     int victim = GetClientOfUserId(victim_id);
     int attacker = GetClientOfUserId(attacker_id);
 
-    //PrintToConsoleAll("%d har lige dræbt %d", attacker, victim);
+    
     
     char[] attackerName = GetClientName(attacker);
     
     SetEntPropFloat(attacker, Prop_Data, "m_flLaggedMovementValue", 0.0);
-   // PrintToChat(attacker, attackerName);
+    PrintToChat(attacker, attackerName);
 
     if (frozenPlayers[attacker] != null) // If the player made a previous kill within 5 seconds, then we kill it and make a new timer for 5 sec.
     {
