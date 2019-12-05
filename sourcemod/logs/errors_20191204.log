@@ -1,0 +1,15 @@
+L 12/04/2019 - 20:19:29: SourceMod error session started
+L 12/04/2019 - 20:19:29: Info (map "de_dust2") (file "E:\csgo-ds\csgo\addons\sourcemod\logs\errors_20191204.log")
+L 12/04/2019 - 20:19:29: [SM] Failed to load plugin "beercs.smx": Unable to load plugin (bad header).
+L 12/04/2019 - 22:01:54: SourceMod error session started
+L 12/04/2019 - 22:01:54: Info (map "de_dust2") (file "E:\csgo-ds\csgo\addons\sourcemod\logs\errors_20191204.log")
+L 12/04/2019 - 22:01:54: [SM] Exception reported: Entity 7 (7) is invalid
+L 12/04/2019 - 22:01:54: [SM] Blaming: beer-cs.smx
+L 12/04/2019 - 22:01:54: [SM] Call stack trace:
+L 12/04/2019 - 22:01:54: [SM]   [0] SetEntPropFloat
+L 12/04/2019 - 22:01:54: [SM]   [1] Line 41, E:\csgo-ds\csgo\addons\sourcemod\plugins\beer-cs\beer-cs.sp::UnfreezePlayer
+L 12/04/2019 - 22:01:55: [SM] Exception reported: Entity 3 (3) is invalid
+L 12/04/2019 - 22:01:55: [SM] Blaming: beer-cs.smx
+L 12/04/2019 - 22:01:55: [SM] Call stack trace:
+L 12/04/2019 - 22:01:55: [SM]   [0] SetEntPropFloat
+L 12/04/2019 - 22:01:55: [SM]   [1] Line 41, E:\csgo-ds\csgo\addons\sourcemod\plugins\beer-cs\beer-cs.sp::UnfreezePlayer
